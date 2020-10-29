@@ -1,5 +1,5 @@
 [package]
-name = "lompsa_rust"
+name = "lompsa"
 version = "0.1.0"
 authors = ["Samuli Lehtonen <cr0xxy94@gmail.com>"]
 edition = "2018"
@@ -8,3 +8,4 @@ edition = "2018"
 
 [dependencies]
 diesel = { version="1.4.5", features = ["sqlite"] }
+prettytable-rs = "0.6.5"
